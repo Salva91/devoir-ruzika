@@ -5,7 +5,7 @@
 					<meta charset="utf-8">
 					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 					<link rel="stylesheet" href="./css/style.css"/>
-					<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+					<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 					<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 		</head>
 
@@ -14,7 +14,7 @@
 						<nav class="container">
 								<ul>
 										<li id="barre-img"><img src="./images/logo_RG.png"></li>
-										<li id="barre-RG"> <a>ROLAND GARROS</a></li>
+										<li id="barre-RG"> <a href="home.html">ROLAND GARROS</a></li>
 										<li id="barre-home"><a href="home.html">Home</a></li>
 										<li id="barre-about"><a href="about.html">About</a></li>
 										<li id="barre-contact"><a href="contact.html">Contact</a></li>
@@ -23,7 +23,7 @@
 				</header>
 
 				<section id="main-content" class="container">
-						<div>sALUT toI</div>
+
 				</section>
 
 				<footer>
@@ -33,4 +33,9 @@
 				</footer>
 		</body>
 		<script src="./js/main.js"></script>
+		<script src="./js/router.js"></script>
+
+		<script>
+				router.init();
+		</script>
 </html>
