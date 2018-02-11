@@ -1,0 +1,30 @@
+/*
+/*  Global
+ */
+body {
+		background: #f2f2f2;
+}
+.container {
+		width: 1080px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+ /*
+ /*  Header
+  */
+header {
+
+}
+header ul li {
+		list-style: none;
+		float: left;
+}
+	/*
+  /*  Content
+   */
+
+
+	/*
+  /*  Footer
+   */
