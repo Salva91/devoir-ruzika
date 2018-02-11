@@ -1,0 +1,45 @@
+<!-- Page qui permet gérer les arbitres  -->
+<div class="row">
+    <div class="col-md-8">
+        <h3>Enregistrer des arbitres</h3>
+        <p>Enregistre un nouveau arbitres...</p>
+        <form id="playersForm" action="">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input class="form-control" type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Prénom</label>
+                <input class="form-control" type="text" name="lastname" id="lastname">
+            </div>
+            <div class="form-group">
+                <label for="sex">Sexe</label>
+                <select class="form-control" type="text" name="sex" id="sex">
+                    <option value="mr" selected >Homme</option>
+                    <option value="mme">Femme</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="country">Nation</label>
+                <input class="form-control" type="text" name="country" id="country">
+            </div>
+            <input type="hidden" name="role" value="arbitrator">
+            <div class="form-group">
+                <input type="submit" value="Ajouter un arbitre">
+            </div>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <h3>Liste des arbitres</h3>
+        <div id="player-arbitrator" class="list-player">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    users.users = dataManager.data.users;
+    users.refreshArbitrator();
+</script>

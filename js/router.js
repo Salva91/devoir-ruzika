@@ -1,8 +1,12 @@
+/**
+ * Gestionnaire des route, permet de charger les tempaltes
+ * @type {Object}
+ */
 router = {
     /**
      * Data
      */
-    defaultRoute : "main.html",
+    defaultRoute : "home.html",
     folderTemplate : "./templates",
     currentRoute : "",
 
@@ -20,12 +24,14 @@ router = {
      * @param  {[string]} fileName Nom du fichier
      */
     useRoute : function( fileName ) {
-      urlFile = this.folderTemplate + "/" + fileName;
-      $.get( urlFile, function( data ) {
-          $( "#main-content" ).html( data );
-      });
+        urlFile = this.folderTemplate + "/" + fileName;
+        $.get( urlFile, function( data ) {
+            $( "#main-content" ).html( data );
+        });
     },
-
+    refreshPage : function(){
+        this.useRoute( this.currentRoute );
+    },
     init : function () {
         var self = this;
         /**

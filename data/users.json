@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Pedro",
+        "lastname": "Sanchuez",
+        "sexe": "mr",
+        "country": "portugal",
+        "role": "player"
+    },
+    {
+        "id": 1,
+        "name": "Nathalie",
+        "lastname": "Morona",
+        "sexe": "mme",
+        "country": "turquie",
+        "role": "player"
+    },
+    {
+        "id": 2,
+        "name": "franck",
+        "lastname": "duchamps",
+        "sexe": "mr",
+        "country": "france",
+        "role": "arbitrator"
+    }
+]

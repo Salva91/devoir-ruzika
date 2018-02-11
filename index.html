@@ -4,6 +4,7 @@
 			<title>ROLAND GARROS</title>
 					<meta charset="utf-8">
 					<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+					<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
 					<link rel="stylesheet" href="./css/style.css"/>
 					<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 					<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -16,6 +17,9 @@
 										<li id="barre-img"><img src="./images/logo_RG.png"></li>
 										<li id="barre-RG"> <a href="home.html">ROLAND GARROS</a></li>
 										<li id="barre-home"><a href="home.html">Home</a></li>
+										<li id="players"><a href="players.html">Gestion des joueurs</a></li>
+										<li id="players"><a href="arbitrator.html">Gestion des arbitres</a></li>
+										<li id="players"><a href="matchs.html">Gestion des matchs</a></li>
 										<li id="barre-about"><a href="about.html">About</a></li>
 										<li id="barre-contact"><a href="contact.html">Contact</a></li>
 										<li id="login"><a href="connection.html">Connection</a></li>
@@ -35,9 +39,14 @@
 		</body>
 		<script src="./js/main.js"></script>
 		<script src="./js/router.js"></script>
-		<script src="./js/form.js"></script>
+		<script src="./js/connect.js"></script>
+		<script src="./js/dataManager.js"></script>
+		<script src="./js/users.js"></script>
+		<script src="./js/matchs.js"></script>
 		<script>
+				dataManager.init();
 				router.init();
-				form.init();
+				connect.init();
+				users.init();
 		</script>
 </html>

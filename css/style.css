@@ -24,6 +24,7 @@ input {
 	border: 1px solid #ccc;
 	padding: 5px 25px;
 }
+
  /*
  /*  Header
   */
@@ -58,6 +59,9 @@ header ul li#barre-img img{
 		margin-top: 30px;
 		padding: 15px;
 		border: 1px solid #ccc;
+}
+#main-content .list-player li{
+		list-style: none;
 }
 /*
 /*  Content - Connection
